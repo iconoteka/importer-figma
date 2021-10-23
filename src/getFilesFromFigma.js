@@ -82,12 +82,6 @@ const chunkArray = (arr, chunkSize) => {
 const fillItemProps = item => { 
 
     return {
-        isFill: true,
-        isStroke: true,
-        isBold: true,
-        isMedium: true,
-        isRegular: true,
-        isLight: true,
         name: item.name,
         path: item.fileName,
         keywords: [],
