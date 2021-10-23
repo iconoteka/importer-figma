@@ -8,7 +8,7 @@ const defaultConfig = require('./iconoteka.config.default')(cwd);
 
 const configFilename = 'iconoteka.config.js';
 const customConfigPath = findUp.sync(configFilename, {
-    cwd: path.resolve(path.join(process.cwd(), '..'))
+    cwd: path.resolve(path.join(process.cwd()))
 });
 
 let config = {};
